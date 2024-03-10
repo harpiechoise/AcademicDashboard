@@ -1,0 +1,508 @@
+[
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Paris',
+                   'affiliation-country': 'France',
+                   'affilname': 'INRAE'
+            }
+        ],
+  'citedby-count': '0',
+  'dc:creator': 'Lemoine C.',
+  'dc:identifier': 'SCOPUS_ID: 85173652160',
+  'dc:title': 'Carbon storage in the soil under meadows in dynamic rotating '
+              'pasture',
+  'eid': '2-s2.0-85173652160',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85173652160',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85173652160?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85173652160&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85173652160&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Journal',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:issn': '04292766',
+  'prism:issueIdentifier': '248',
+  'prism:pageRange': '1-10',
+  'prism:publicationName': 'Fourrages',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85173652160',
+  'source-id': '21100818508',
+  'subtype': 'ar',
+  'subtypeDescription': 'Article'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Nilai',
+                   'affiliation-country': 'Malaysia',
+                   'affilname': 'Universiti Sains Islam Malaysia'
+            }
+        ],
+  'citedby-count': '1',
+  'dc:creator': 'Supaat D.I.',
+  'dc:identifier': 'SCOPUS_ID: 85166184394',
+  'dc:title': 'THE RIGHTS OF VULNERABLE PEOPLE POST-NATURAL DISASTER',
+  'eid': '2-s2.0-85166184394',
+  'freetoread': {'value': [
+                {'$': 'all'
+                },
+                {'$': 'publisherfullgold'
+                }
+            ]
+        },
+  'freetoreadLabel': {'value': [
+                {'$': 'All Open Access'
+                },
+                {'$': 'Gold'
+                }
+            ]
+        },
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85166184394',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85166184394?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85166184394&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85166184394&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '1',
+  'openaccessFlag': True,
+  'prism:aggregationType': 'Journal',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.33102/mjsl.vol9no2.325',
+  'prism:eIssn': '25904396',
+  'prism:issn': '19857454',
+  'prism:issueIdentifier': '2',
+  'prism:pageRange': '135-146',
+  'prism:publicationName': 'Malaysian Journal of Syariah and Law',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85166184394',
+  'prism:volume': '9',
+  'source-id': '21101168863',
+  'subtype': 'ar',
+  'subtypeDescription': 'Article'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Warsaw',
+                   'affiliation-country': 'Poland',
+                   'affilname': 'University of Warsaw'
+            }
+        ],
+  'citedby-count': '0',
+  'dc:creator': 'Fushiya T.',
+  'dc:identifier': 'SCOPUS_ID: 85151026821',
+  'dc:title': 'Teaching collaborative archaeology and heritage management in '
+              'Sudan',
+  'eid': '2-s2.0-85151026821',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85151026821',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85151026821?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85151026821&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85151026821&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Journal',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.31338/uw.2083-537X.pam30.2.23',
+  'prism:eIssn': '2083537X',
+  'prism:issn': '12345415',
+  'prism:issueIdentifier': '2',
+  'prism:pageRange': '537-554',
+  'prism:publicationName': 'Polish Archaeology in the Mediterranean',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85151026821',
+  'prism:volume': '30',
+  'source-id': '21101142674',
+  'subtype': 'ar',
+  'subtypeDescription': 'Article'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Vienna',
+                   'affiliation-country': 'Austria',
+                   'affilname': 'Universität Wien'
+            }
+        ],
+  'citedby-count': '0',
+  'dc:creator': 'Schörner G.',
+  'dc:identifier': 'SCOPUS_ID: 85151008378',
+  'dc:title': 'Cooking ware from Northern Jordan: preliminary report on the '
+              'pottery',
+  'eid': '2-s2.0-85151008378',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85151008378',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85151008378?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85151008378&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85151008378&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Journal',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.31338/uw.2083-537X.pam30.2.03',
+  'prism:eIssn': '2083537X',
+  'prism:issn': '12345415',
+  'prism:issueIdentifier': '2',
+  'prism:pageRange': '561-579',
+  'prism:publicationName': 'Polish Archaeology in the Mediterranean',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85151008378',
+  'prism:volume': '30',
+  'source-id': '21101142674',
+  'subtype': 'ar',
+  'subtypeDescription': 'Article'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Raleigh',
+                   'affiliation-country': 'United States',
+                   'affilname': 'NC State University'
+            }
+        ],
+  'citedby-count': '0',
+  'dc:creator': 'Lewbart G.A.',
+  'dc:identifier': 'SCOPUS_ID: 85149902906',
+  'dc:title': 'Porifera',
+  'eid': '2-s2.0-85149902906',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149902906',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149902906?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149902906&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149902906&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Book',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.1002/9781119569831.ch2',
+  'prism:isbn': [
+            {'$': '9781119569831', '@_fa': 'true'
+            },
+            {'$': '9781119569435', '@_fa': 'true'
+            }
+        ],
+  'prism:pageRange': '7-32',
+  'prism:publicationName': 'Invertebrate Medicine',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85149902906',
+  'source-id': '21101140407',
+  'subtype': 'ch',
+  'subtypeDescription': 'Book Chapter'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Dartmouth',
+                   'affiliation-country': 'United States',
+                   'affilname': 'University of Massachusetts Dartmouth'
+            }
+        ],
+  'citedby-count': '2',
+  'dc:creator': 'Hancock-Ronemus A.L.',
+  'dc:identifier': 'SCOPUS_ID: 85149899787',
+  'dc:title': 'Crustaceans',
+  'eid': '2-s2.0-85149899787',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149899787',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149899787?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149899787&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149899787&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Book',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.1002/9781119569831.ch16',
+  'prism:isbn': [
+            {'$': '9781119569831', '@_fa': 'true'
+            },
+            {'$': '9781119569435', '@_fa': 'true'
+            }
+        ],
+  'prism:pageRange': '367-398',
+  'prism:publicationName': 'Invertebrate Medicine',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85149899787',
+  'source-id': '21101140407',
+  'subtype': 'ch',
+  'subtypeDescription': 'Book Chapter'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Golden Valley',
+                   'affiliation-country': 'United States',
+                   'affilname': 'LLC'
+            }
+        ],
+  'citedby-count': '1',
+  'dc:creator': 'Berzins I.K.',
+  'dc:identifier': 'SCOPUS_ID: 85149896879',
+  'dc:title': 'Diagnostic techniques and sample handling',
+  'eid': '2-s2.0-85149896879',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149896879',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149896879?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149896879&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149896879&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Book',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.1002/9781119569831.ch25',
+  'prism:isbn': [
+            {'$': '9781119569831', '@_fa': 'true'
+            },
+            {'$': '9781119569435', '@_fa': 'true'
+            }
+        ],
+  'prism:pageRange': '615-630',
+  'prism:publicationName': 'Invertebrate Medicine',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85149896879',
+  'source-id': '21101140407',
+  'subtype': 'ch',
+  'subtypeDescription': 'Book Chapter'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': None,
+                   'affiliation-country': 'Switzerland',
+                   'affilname': 'Exoticus Veterinary Clinic'
+            }
+        ],
+  'citedby-count': '0',
+  'dc:creator': 'Hagen K.B.',
+  'dc:identifier': 'SCOPUS_ID: 85149878804',
+  'dc:title': 'Chitons',
+  'eid': '2-s2.0-85149878804',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149878804',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149878804?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149878804&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149878804&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Book',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.1002/9781119569831.ch11',
+  'prism:isbn': [
+            {'$': '9781119569831', '@_fa': 'true'
+            },
+            {'$': '9781119569435', '@_fa': 'true'
+            }
+        ],
+  'prism:pageRange': '235-248',
+  'prism:publicationName': 'Invertebrate Medicine',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85149878804',
+  'source-id': '21101140407',
+  'subtype': 'ch',
+  'subtypeDescription': 'Book Chapter'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Melbourne',
+                   'affiliation-country': 'Australia',
+                   'affilname': 'La Trobe University'
+            }
+        ],
+  'citedby-count': '0',
+  'dc:creator': 'New T.R.',
+  'dc:identifier': 'SCOPUS_ID: 85149873445',
+  'dc:title': 'Invertebrate health issues in conservation',
+  'eid': '2-s2.0-85149873445',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149873445',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149873445?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149873445&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149873445&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Book',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.1002/9781119569831.ch30',
+  'prism:isbn': [
+            {'$': '9781119569831', '@_fa': 'true'
+            },
+            {'$': '9781119569435', '@_fa': 'true'
+            }
+        ],
+  'prism:pageRange': '677-691',
+  'prism:publicationName': 'Invertebrate Medicine',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85149873445',
+  'source-id': '21101140407',
+  'subtype': 'ch',
+  'subtypeDescription': 'Book Chapter'
+    },
+    {'@_fa': 'true',
+  'affiliation': [
+            {'@_fa': 'true',
+                   'affiliation-city': 'Raleigh',
+                   'affiliation-country': 'United States',
+                   'affilname': 'NC State University'
+            }
+        ],
+  'citedby-count': '0',
+  'dc:creator': 'Levine J.F.',
+  'dc:identifier': 'SCOPUS_ID: 85149848207',
+  'dc:title': 'Bivalves',
+  'eid': '2-s2.0-85149848207',
+  'link': [
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149848207',
+            '@ref': 'self'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //api.elsevier.com/content/abstract/scopus_id/85149848207?field=author,affiliation',
+            '@ref': 'author-affiliation'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149848207&origin=inward',
+            '@ref': 'scopus'
+            },
+            {'@_fa': 'true',
+            '@href': 'https: //www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149848207&origin=inward',
+            '@ref': 'scopus-citedby'
+            }
+        ],
+  'openaccess': '0',
+  'openaccessFlag': False,
+  'prism:aggregationType': 'Book',
+  'prism:coverDate': '2021-12-31',
+  'prism:coverDisplayDate': '31 December 2021',
+  'prism:doi': '10.1002/9781119569831.ch10',
+  'prism:isbn': [
+            {'$': '9781119569831', '@_fa': 'true'
+            },
+            {'$': '9781119569435', '@_fa': 'true'
+            }
+        ],
+  'prism:pageRange': '203-234',
+  'prism:publicationName': 'Invertebrate Medicine',
+  'prism:url': 'https: //api.elsevier.com/content/abstract/scopus_id/85149848207',
+  'source-id': '21101140407',
+  'subtype': 'ch',
+  'subtypeDescription': 'Book Chapter'
+    }
+]
