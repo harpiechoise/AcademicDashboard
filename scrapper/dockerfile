@@ -1,0 +1,11 @@
+FROM python:3.11.8-alpine3.19
+
+RUN apk add --no-cache libpq-dev gcc build-base
+COPY . home/scrapper
+WORKDIR /home/scrapper
+
+RUN pip install --no-cache-dir -r requirements.txt
+RUN apk del gcc build-base && rm -f /sbin/apk && rm -rf /etc/apk && rm -rf /lib/apk && rm -rf /usr/share/apk && rm -rf /var/lib/apk
+USER 1000
+
+CMD ["python", "main.py"]

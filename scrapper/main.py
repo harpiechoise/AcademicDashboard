@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 import os
 import sys
 
+
 if len(sys.argv) > 1 and sys.argv[1] == "create":
     from src.database.connection import ENGINE
 

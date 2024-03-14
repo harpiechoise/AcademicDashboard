@@ -1,4 +1,4 @@
-from src.database.models import Author, Article
+from src.database.models import Author, Article, Funder, Affiliation
 from src.logs.logger import logger
 
 
@@ -38,15 +38,61 @@ def insert_data(session, data: dict) -> None:
         )
         session.add(article)
 
-    for author in authors:
+    for i, author in enumerate(authors):
         # Try to get
-        author_ = session.query(Author).filter_by(**author).first()
+        author_ = (
+            session.query(Author)
+            .filter_by(family=author.get("family"), given=author.get("given"))
+            .first()
+        )
         if author_:
             logger.debug(f"[DATABASE] Author {author_} already exists")
-            authors[authors.index(author)] = author_
+            authors[i] = author_
         else:
             logger.debug("[DATABASE] Author does not exist, creating...")
-            authors[authors.index(author)] = Author(**author)
+            authors[i] = Author(
+                family=author.get("family"),
+                given=author.get("given"),
+                sequence=author.get("sequence"),
+                ORCID=author.get("ORCID"),
+            )
+            if author.get("affiliation"):
+                for affiliation in author["affiliation"]:
+                    affiliation_ = (
+                        session.query(Affiliation).filter_by(name=affiliation).first()
+                    )
+                    if affiliation_:
+                        logger.debug(
+                            f"[DATABASE] Affiliation {affiliation_} already exists"
+                        )
+                        authors[i].affiliation.append(affiliation_)
+                    else:
+                        affiliation = Affiliation(name=affiliation)
+                        session.add(affiliation)
+                        session.commit()
+                        authors[i].affiliation.append(affiliation)
+
+    # funders
+    if data.get("funders"):
+        funders = data.pop("funders")
+        for funder in funders:
+            print(funder)
+            funder_ = session.query(Funder).filter_by(name=funder["name"]).first()
+            if funder_:
+                logger.debug(f"[DATABASE] Funder {funder_} already exists")
+                funders[funders.index(funder)] = funder_
+            else:
+                logger.debug("[DATABASE] Funder does not exist, creating...")
+                funders[funders.index(funder)] = Funder(
+                    name=funder["name"],
+                    doi=funder["doi"],
+                    award=None,
+                    url=None,
+                )
+        print(funders)
+        session.add_all(funders)
+        session.commit()
+        article.funders.extend(funders)
 
     session.add_all(authors)
     session.commit()

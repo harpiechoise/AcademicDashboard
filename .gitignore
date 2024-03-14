@@ -2,3 +2,5 @@ database-deploy.md
 *.env
 *vscode/*
 *.pyc
+*secrets.yml
+*secrets.yaml

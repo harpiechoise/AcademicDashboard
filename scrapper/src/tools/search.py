@@ -47,18 +47,40 @@ def crossref_helper(parse_function: callable) -> dict:
             )
             return None
         for author in response["message"]["author"]:
+            # Affiliations
+            affiliations = []
+            if "affiliation" in author:
+                for affiliation in author["affiliation"]:
+                    affiliations.append(affiliation["name"])
+
             authors.append(
                 {
                     "ORCID": author.get("ORCID", None),
                     "family": author.get("family", None),
                     "given": author.get("given", None),
                     "sequence": author.get("sequence", None),
+                    "affiliation": affiliations,
                 }
             )
+        funders = []
+        if "funder" in response["message"]:
+            for funder in response["message"]["funder"]:
+                funders.append(
+                    {
+                        "name": funder.get("name", None),
+                        "doi": funder.get("DOI", None),
+                        "url": funder.get("url", None),
+                        "award": funder.get("award", None),
+                    },
+                )
+
         reference_count = response["message"]["reference-count"]
         publisher = response["message"]["publisher"]
         if authors:
             result["authors"] = authors
+        if funders:
+            result["funders"] = funders
+
         return dict(
             **result,
             issn=issn,
@@ -306,11 +328,13 @@ class ScopusSearch(AbstractSearch):
         url = "https://api.elsevier.com/content/search/scopus"
         headers = {
             "Accept": "application/json",
-            "X-ELS-APIKey": os.getenv("SCOPUS_API_KEY"),
+            "X-ELS-APIKey": os.getenv(
+                "SCOPUS_API_KEY", "a26927a66390986f8caecd36ea1843a2"
+            ),
         }
 
         params = {
-            "apiKey": os.getenv("SCOPUS_API_KEY"),
+            "apiKey": os.getenv("SCOPUS_API_KEY", "a26927a66390986f8caecd36ea1843a2"),
             "query": os.getenv("TOPIC", "Climate change"),
             "date": f"{year}",
             "sort": "relevancy",
